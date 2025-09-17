@@ -6,14 +6,11 @@ const Education = () => {
       <h2 className="text-3xl font-bold text-center mb-12">Education</h2>
 
       <div className="flex flex-col items-center gap-8">
-        {/* Ảnh */}
         <img
           src={education}
           alt="FPT Polytechnic"
           className="w-full md:w-2/3 lg:w-1/2 rounded-xl shadow-lg border border-white/10"
         />
-
-        {/* Nội dung */}
         <div className="text-center">
           <h3 className="text-2xl font-semibold text-purple-400">
             FPT Polytechnic College

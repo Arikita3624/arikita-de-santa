@@ -5,20 +5,15 @@ import avatar from "@/assets/avatar.jpg";
 
 const Contact: React.FC = () => {
   return (
-    <section
-      id="contact"
-      className="max-w-6xl mx-auto py-20 px-6 border-t border-white/10"
-    >
+    <section id="contact" className="max-w-5xl mx-auto py-16 px-6">
       <h2 className="text-3xl font-bold text-center mb-12">Contact</h2>
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
-        {/* Bên trái: thông tin liên hệ */}
         <div className="space-y-6 text-center md:text-left">
           <p className="text-lg text-gray-300">
             Contact me for something cool or just to say hi!
           </p>
 
-          {/* Social icons */}
           <div className="flex justify-center md:justify-start gap-6 text-3xl text-white">
             <a
               href="https://www.facebook.com/nguyen.duy.hung.3624"
@@ -50,7 +45,6 @@ const Contact: React.FC = () => {
             </a>
           </div>
 
-          {/* Email & Phone */}
           <div className="space-y-2 text-gray-300 text-md">
             <p className="flex items-center gap-2 justify-center md:justify-start">
               <MdEmail className="text-purple-400 text-xl" />
@@ -62,8 +56,6 @@ const Contact: React.FC = () => {
             </p>
           </div>
         </div>
-
-        {/* Bên phải: avatar */}
         <div className="flex justify-center md:justify-end">
           <img
             src={avatar}
